@@ -18,8 +18,13 @@ author:
   url:            https://twitter.com/mdo
 
 paginate:         5
+paginate_path: '/blog/page:num'
 
 plugins: [jekyll-paginate]
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
 
 # Custom vars
 version:          2.1.0
